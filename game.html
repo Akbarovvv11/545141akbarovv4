@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O‘yin tanlovi - UC Servis</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 id="game-title">O‘yin</h1>
+    <button onclick="goBack()">← Orqaga</button>
+  </header>
+
+  <section id="packages" class="packages"></section>
+
+  <section class="order-form">
+    <h2>🛒 Buyurtma berish</h2>
+    <input type="text" id="id" placeholder="O‘yin ID raqamingiz">
+    <input type="text" id="name" placeholder="Ismingiz">
+    <button onclick="sendOrder()">Zakas berish</button>
+  </section>
+
+  <footer>
+    <p>© 2025 UC Servis | 100% Halol va ishonchli servis</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
